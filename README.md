@@ -48,6 +48,7 @@ Installation is done in a virtual environment:
 ```
 virtualenv -p python3 .
 source ./bin/activate
+pip install --upgrade pip
 pip install --require-hashes -r requirements.txt
 ```
 
